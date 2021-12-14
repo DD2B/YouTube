@@ -1,0 +1,50 @@
+{
+    "name": "Youtube",
+    "description": "بوت تيليجرام لتحميل الفيديوهات و الاغاني من اليوتيوب.",
+    "logo": "https://telegra.ph/file/e9e3f115d2e530f9c7a9e.jpg",
+    "keywords": [
+        "Youtube",
+        "Video Downloader",
+        "Telegram Bot"
+    ],
+    "website": "https://telegram.dog/JMTHON",
+    "repository": "https://github.com/RR9R7/Youtube",
+    "success_url": "https://t.me/RR7PP",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "توكن البوت احصل عليه من هنا @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "ايبي هاش احصل عليه من هنا my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "ايبي ايدي احصل عليه من هنا my.telegram.org",
+            "value": ""
+        },
+        "AUDIO_THUMBNAIL": {
+            "description": "لا تغيرها اتركها كما هي رجاءا! ",
+            "value": "No"
+        },
+        "VIDEO_THUMBNAIL": {
+            "description": "لا تغيرها اتركها كما هي رجاءا!",
+            "value": "No"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
