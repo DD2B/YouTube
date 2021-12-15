@@ -12,7 +12,7 @@
     "success_url": "https://t.me/RR7PP",
     "env": {
         "TG_BOT_TOKEN": {
-            "description": "توكن البوت",
+            "description": "توكن اليوت تحصله على @BotFather",
             "value": ""
         },
         "API_HASH": {
