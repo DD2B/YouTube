@@ -75,19 +75,19 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b><u>YOUTUBE BOT INFO</u></b>
 
-<b>▷ ‍🔧 المطور:</b> <a href="https://t.me/RR7PP">اضغط هنا</a>
+<b>▷ ‍🔧 المطور:</b> <a href="https://t.me/CVOOZ">اضغط هنا</a>
 
 <b>▷ 📚 المكتبة:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>▷ 📢 قناة السورس:</b> @JMTHON
+<b>▷ 📢 قناة السورس:</b> @JAIITHON
 
-<b>▷ 🌀 ملفات السورس:</b> <a href="https://github.com/RR9R7/Youtube">اضغط هنا</a>""",
+<b>▷ 🌀 ملفات السورس:</b> <a href="https://github.com/xrzoc/Youtube">اضغط هنا</a>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "🔙 رجـوع", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "المطـور ⛓️️", url="https://t.me/RR7PP"),
+                                            "المطـور ⛓️️", url="https://t.me/CVOOZ"),
                                   ],]
                             ),        
             disable_web_page_preview=True,        
@@ -231,7 +231,7 @@ else:
        os.remove(audio_file)
        os.remove(thumbnail_file)
 
-@RR7PP.on_callback_query(filters.regex("^ytdl_video$"))
+@CVOOZ.on_callback_query(filters.regex("^ytdl_video$"))
 async def callback_query_ytdl_video(_, callback_query):
     try:
         # url = callback_query.message.text
