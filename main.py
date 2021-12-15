@@ -75,7 +75,7 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b><u>YOUTUBE BOT INFO</u></b>
 
-<b>• ‍🔧 المطور:</b> <a href="https://t.me/CVOOZ">اضغط هنا</a>
+<b>• ‍🔧 المطور:</b> <a href="https://t.me/xrzoc">اضغط هنا</a>
 
 <b>• 📚 المكتبة:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
