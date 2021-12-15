@@ -1,4 +1,4 @@
-# By ~ @XRZOC
+# By ~ @CVOOZ
 # For and gives starts 🤍
 
 import os
@@ -30,7 +30,7 @@ s2tw = OpenCC('s2tw.json').convert
 @CVOOZ.on_message(filters.command("start"))
 async def start(client, message):
    if message.chat.type == 'private':
-       await RR7PP.send_message(
+       await CVOOZ.send_message(
                chat_id=message.chat.id,
                text="""<b>أهلا بك عزيزي،
 
@@ -71,7 +71,7 @@ async def help(client, message):
 @CVOOZ.on_message(filters.command("about"))
 async def about(client, message):
     if message.chat.type == 'private':   
-        await RR7PP.send_message(
+        await CVOOZ.send_message(
                chat_id=message.chat.id,
                text="""<b><u>YOUTUBE BOT INFO</u></b>
 
@@ -81,7 +81,7 @@ async def about(client, message):
 
 <b>▷ 📢 قناة السورس:</b> @JAIITHON
 
-<b>▷ 🌀 ملفات السورس:</b> <a href="https://github.com/xrzoc/Youtube">اضغط هنا</a>""",
+<b>▷ 🌀 ملفات السورس:</b> <a href="https://github.com/xrzo/Youtube">اضغط هنا</a>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
