@@ -41,7 +41,7 @@ async def start(client, message):
                                 [
                                 [
                                         InlineKeyboardButton('قائمة المساعدة', callback_data="help"),
-                                        InlineKeyboardButton('▷ DEV', url='https://T.ME/CVOOZ')
+                                        InlineKeyboardButton('• DEV', url='https://T.ME/CVOOZ')
                                     ],]
                             ),        
             disable_web_page_preview=True,        
@@ -50,7 +50,7 @@ async def start(client, message):
 @CVOOZ.on_message(filters.command("help"))
 async def help(client, message):
     if message.chat.type == 'private':   
-        await RR7PP.send_message(
+        await CVOOZ.send_message(
                chat_id=message.chat.id,
                text="""<b><u>بوت اليوتيوب</u></b>
 
