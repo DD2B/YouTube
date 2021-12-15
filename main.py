@@ -35,7 +35,7 @@ async def start(client, message):
                text="""<b>أهلا بك عزيزي،
 
 من خلال هذا البوت يمكنك تحميل الاغاني والفيديوهات من اليوتيوب اضغط على الخيارات بالأسفل لمزيد من المعلومات 
-▷ BY : @CVOOZ
+• BY : @CVOOZ
 </b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [
@@ -56,7 +56,7 @@ async def help(client, message):
 
 فقط ارسل رابط الفيديو او الاغنية لتحميلها وارسالها لك
 
-<b>▷ DEV :</b> @CVOOZ""",
+<b>• DEV :</b> @CVOOZ""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -75,19 +75,19 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b><u>YOUTUBE BOT INFO</u></b>
 
-<b>▷ ‍🔧 المطور:</b> <a href="https://t.me/CVOOZ">اضغط هنا</a>
+<b>• ‍🔧 المطور:</b> <a href="https://t.me/CVOOZ">اضغط هنا</a>
 
-<b>▷ 📚 المكتبة:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
+<b>• 📚 المكتبة:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>▷ 📢 قناة السورس:</b> @JAIITHON
+<b>• 📢 قناة السورس:</b> @JAIITHON
 
-<b>▷ 🌀 ملفات السورس:</b> <a href="https://github.com/xrzo/Youtube">اضغط هنا</a>""",
+<b>• 🌀 ملفات السورس:</b> <a href="https://github.com/xrzo/Youtube">اضغط هنا</a>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "🔙 رجـوع", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "المطـور ⛓️️", url="https://t.me/CVOOZ"),
+                                            "المطـور ⛓️️", url="https://t.me/XRZOC"),
                                   ],]
                             ),        
             disable_web_page_preview=True,        
