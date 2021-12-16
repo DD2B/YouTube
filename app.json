@@ -7,9 +7,9 @@
         "Video Downloader",
         "Telegram Bot"
     ],
-    "website": "https://telegram.dog/JMTHON",
-    "repository": "https://github.com/RR9R7/Youtube",
-    "success_url": "https://t.me/RR7PP",
+    "website": "https://telegram.dog/JAIITHON",
+    "repository": "https://github.com/xrzo/Youtube",
+    "success_url": "https://t.me/XRZOC",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "توكن اليوت تحصله على @BotFather",
