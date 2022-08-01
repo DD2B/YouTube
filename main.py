@@ -35,13 +35,13 @@ async def start(client, message):
                text="""<b>أهلا بك عزيزي،
 
 من خلال هذا البوت يمكنك تحميل الاغاني والفيديوهات من اليوتيوب اضغط على الخيارات بالأسفل لمزيد من المعلومات 
-• BY : @CVOOZ
+• BY : @YY8GG
 </b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [
                                 [
                                         InlineKeyboardButton('قائمة المساعدة', callback_data="help"),
-                                        InlineKeyboardButton('• DEV', url='https://T.ME/CVOOZ')
+                                        InlineKeyboardButton('• DEV', url='https://T.ME/KU_KX')
                                     ],]
                             ),        
             disable_web_page_preview=True,        
@@ -56,7 +56,7 @@ async def help(client, message):
 
 فقط ارسل رابط الفيديو او الاغنية لتحميلها وارسالها لك
 
-<b>• DEV :</b> @CVOOZ""",
+<b>• DEV :</b> @KU_KX""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -75,19 +75,19 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b><u>YOUTUBE BOT INFO</u></b>
 
-<b>• ‍🔧 المطور:</b> <a href="https://t.me/xrzoc">اضغط هنا</a>
+<b>• ‍🔧 المطور:</b> <a href="https://t.me/ku_kx">اضغط هنا</a>
 
 <b>• 📚 المكتبة:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>• 📢 قناة السورس:</b> @JAIITHON
+<b>• 📢 قناة السورس:</b> @YY8GG
 
-<b>• 🌀 ملفات السورس:</b> <a href="https://github.com/xrzo/Youtube">اضغط هنا</a>""",
+<b>• 🌀 كروب السورس:</b> <a href="https://t.me/musicsourcedragon">اضغط هنا</a>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "🔙 رجـوع", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "المطـور ⛓️️", url="https://t.me/XRZOC"),
+                                            "المطـور ⛓️️", url="https://t.me/KU_kX"),
                                   ],]
                             ),        
             disable_web_page_preview=True,        
@@ -107,7 +107,7 @@ async def ytdl_with_button(c: Client, message: Message):
             if user.status == "kicked":
                 await c.send_message(
                     chat_id=message.chat.id,
-                    text="▾∮ تم حظرك من استخدام البوت تواصل مع مطوري [اضغط هنا](https://t.me/CVOOZ).",
+                    text="▾∮ تم حظرك من استخدام البوت تواصل مع مطوري [اضغط هنا](https://t.me/KU_KX).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -119,7 +119,7 @@ async def ytdl_with_button(c: Client, message: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("قناة السورس", url=f"https://t.me/JAIITHON")
+                            InlineKeyboardButton("قناة السورس", url=f"https://t.me/YY8GG")
                         ]
                     ]
                 ),
@@ -129,7 +129,7 @@ async def ytdl_with_button(c: Client, message: Message):
         except Exception:
             await c.send_message(
                 chat_id=message.chat.id,
-                text="هنالك شي خطا تواصل مع مطوري [اضغط هنة](https://t.me/CVOOZ).",
+                text="هنالك شي خطا تواصل مع مطوري [اضغط هنة](https://t.me/ku_kx).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -348,7 +348,7 @@ async def button(bot, update):
 print(
     """
 اشتغل البوت بنجاح ✅
-اشترك @JAIITHON
+اشترك @YY8GG
 """
 )
 
